@@ -1,12 +1,18 @@
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/sincromaster/zica-font-awesome/blob/master/LICENSE)
-### Apresentação
+# Zica-font-awesome
 
-Esta modificação foi desenvolvida para trabalhar junto com a fontawesome, e tem o objetivo de facilitar o desenvolvimento de módulos, onde podemos selecionnar os icones em um campo do tipo select, utilizando o plugin select2.
+> Esta modificação foi desenvolvida para trabalhar junto com a fontawesome, e tem o objetivo de facilitar o desenvolvimento de módulos, onde podemos selecionnar os icones em um campo do tipo select, utilizando o plugin select2.
+
+
+
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/sincromaster/zica-font-awesome/blob/master/LICENSE)
 
 
 
 ### Exemplo
+<img src="https://github.com/sincromaster/zica-font-awesome/blob/master/zica-font.png" alt="Zica-font-awesome">
 
+
+### Usando
 admin/controller/extension/module/seu-modulo.php
 ```
  $css_path = 'view/javascript/font-awesome/css/font-awesome.css';
@@ -80,7 +86,7 @@ admin\view\template\extension\module/seu-modulo.twig
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css"/>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js"></script>
 <script src="view/javascript/zica-font-awesome/js/zica-font-awesome.js" type="text/javascript"></script>
-```
+ ```
 
 
 ```
