@@ -56,13 +56,6 @@ var t = window.location.hash;
         choose_type(t)
     });
 
-$('.btn-outline-secondary').click(function(e) {
-        $('.btn-outline-secondary').not(this).removeClass('active')
-    		.siblings('input').prop('checked',false);
-    	$(this).addClass('active')
-            .siblings('input').prop('checked',true);
-    });
-
 };
 
 $(document).ready(function() {
