@@ -1,5 +1,4 @@
-[![license][licenca-badge]][LICENSE]
-
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/sincromaster/zica-font-awesome/blob/master/LICENSE)
 ### Apresentação
 
 Esta modificação foi desenvolvida para trabalhar junto com a fontawesome, e tem o objetivo de facilitar o desenvolvimento de módulos, onde podemos selecionnar os icones em um campo do tipo select, utilizando o plugin select2.
