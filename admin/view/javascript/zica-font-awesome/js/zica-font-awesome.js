@@ -59,6 +59,6 @@ var t = window.location.hash;
 };
 
 $(document).ready(function() {
-	ZicaFont.ZicaFont();
+	ZicaFont.Zica();
 	
 });
