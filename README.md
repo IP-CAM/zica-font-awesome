@@ -25,6 +25,7 @@ admin/controller/extension/module/seu-modulo.php
 ```
 
 admin\view\template\extension\module/seu-modulo.twig
+
 ```
 <table id="zica-font" class="table table-striped table-bordered table-hover">
               <thead>
@@ -73,13 +74,17 @@ admin\view\template\extension\module/seu-modulo.twig
                 </tr>
               </tfoot>
             </table>
+	    
 	   ```
-Js
+
 ```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css"/>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js"></script>
 <script src="view/javascript/zica-font-awesome/js/zica-font-awesome.js" type="text/javascript"></script>
+```
 
+
+```
 
 <script type="text/javascript"><!--
 var zica_row = {{ zica_row }};
