@@ -9,10 +9,12 @@ Esta modificação foi desenvolvida para trabalhar junto com a fontawesome, e te
 ### Exemplo
 
 admin/controller/extension/module/seu-modulo.php
-
+```
  $css_path = 'view/javascript/font-awesome/css/font-awesome.css';
  require_once(DIR_SYSTEM . 'library/zica-font-awesome/src/zica-font-awesome.php');
-		
+```
+
+```
  if (isset($this->request->post['module_social'])) {
             $data['zica_font'] = $this->request->post['module_social'];
         } elseif ($this->config->get('module_social')) {
@@ -20,10 +22,10 @@ admin/controller/extension/module/seu-modulo.php
         } else {
             $data['zica_font'] = array();
         }
-
+```
 
 admin\view\template\extension\module/seu-modulo.twig
-
+```
 <table id="zica-font" class="table table-striped table-bordered table-hover">
               <thead>
                 <tr>
@@ -71,8 +73,9 @@ admin\view\template\extension\module/seu-modulo.twig
                 </tr>
               </tfoot>
             </table>
+	   ```
 Js
-
+```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css"/>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js"></script>
 <script src="view/javascript/zica-font-awesome/js/zica-font-awesome.js" type="text/javascript"></script>
@@ -108,4 +111,4 @@ function addZicaFont() {
 	zica_row++;
 }
 //--></script>
-
+```
