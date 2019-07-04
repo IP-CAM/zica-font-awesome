@@ -48,14 +48,6 @@ $('.icons').select2({
     }
     }
 });
-var t = window.location.hash;
-	choose_type = function(t) {
-        $(".input-choose-type").hide(), $("#show_" + t).show()
-    }, choose_type($("#input-choose-type").val()), $("#input-choose-type").change(function() {
-        var t = $(this).val();
-        choose_type(t)
-    });
-
 };
 
 $(document).ready(function() {
