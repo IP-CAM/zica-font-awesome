@@ -1,6 +1,6 @@
 # Zica-font-awesome
 
-> Esta modificação foi desenvolvida para trabalhar junto com a fontawesome, e tem o objetivo de facilitar o desenvolvimento de módulos, onde podemos selecionnar os icones em um campo do tipo select, utilizando o plugin select2.
+> Esta modificação foi desenvolvida para trabalhar junto com a fontawesome, e tem o objetivo de facilitar o desenvolvimento de módulos, onde podemos selecionar os icones em um campo do tipo select, utilizando o plugin select2.
 
 
 
